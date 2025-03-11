@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Blog\Commands\CreateBlog\" />
+    <Folder Include="Blog\Commands\DeleteBlog\" />
+    <Folder Include="Blog\Commands\UpdateBlog\" />
+    <Folder Include="Blog\Commons\Behaviours\" />
+    <Folder Include="Blog\Commons\Exceptions\" />
+    <Folder Include="Blog\Commons\Mappings\" />
+    <Folder Include="Blog\Queries\GetBlogById\" />
+    <Folder Include="Blog\Queries\GetBlogs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureMedaitRCQRS.Domain\CleanArchitectureMedaitRCQRS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
