@@ -7,12 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Blogs\Commands\CreateBlog\" />
     <Folder Include="Blogs\Commands\DeleteBlog\" />
     <Folder Include="Blogs\Commands\UpdateBlog\" />
     <Folder Include="Commons\Behaviours\" />
     <Folder Include="Commons\Exceptions\" />
-    <Folder Include="Blogs\Queries\GetBlogById\" />
   </ItemGroup>
 
   <ItemGroup>
